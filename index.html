@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oliver Dong Chen — CV</title>
+  <meta name="description" content="Curriculum Vitae of Oliver Dong Chen, PhD candidate in Orthopaedics and Traumatology, The University of Hong Kong." />
+  <style>
+    :root {
+      --ink: #1a1f26;
+      --muted: #5a6570;
+      --line: #d8dee6;
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --accent: #1f4e79;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #eef2f6 0%, var(--bg) 40%);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 2rem 1.75rem;
+      box-shadow: 0 8px 24px rgba(26, 31, 38, 0.06);
+    }
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: 1.85rem;
+      letter-spacing: -0.02em;
+    }
+    .role {
+      margin: 0 0 1.25rem;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 1.25rem 0 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid transparent;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+    }
+    .btn-primary:hover { text-decoration: none; filter: brightness(1.05); }
+    .btn-secondary {
+      background: #fff;
+      color: var(--accent);
+      border-color: var(--line);
+    }
+    .btn-secondary:hover { text-decoration: none; background: #f3f6f9; }
+    .note {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 80vh;
+      min-height: 560px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+    @media (max-width: 640px) {
+      iframe { height: 70vh; min-height: 420px; }
+      .card { padding: 1.5rem 1.15rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Oliver Dong Chen</h1>
+      <p class="role">
+        PhD candidate, Orthopaedics and Traumatology,<br />
+        The University of Hong Kong (expected Dec 2026)
+      </p>
+
+      <div class="links">
+        <a href="mailto:oliver.cd1997@gmail.com">oliver.cd1997@gmail.com</a>
+        <a href="https://www.linkedin.com/in/dong-chen-008331307/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=SuI6SMEAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="cv.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+        <a class="btn btn-secondary" href="cv.pdf" download="Oliver-Dong-Chen-CV.pdf">Download CV</a>
+      </div>
+
+      <p class="note">If the preview below does not load on mobile, use View / Download above.</p>
+    </section>
+
+    <section style="margin-top: 1.25rem;">
+      <iframe src="cv.pdf" title="Oliver Dong Chen CV PDF"></iframe>
+    </section>
+  </main>
+</body>
+</html>
